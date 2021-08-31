@@ -6,11 +6,17 @@
 
 ## Overview
 This project is part of the Udacity Azure ML Nanodegree.
-In this project we initialize, configure and deploy a Machine Learning modelin Azure. The 
+In this project we initialize, configure and deploy a Machine Learning model in MS Azure. The 
 
 Objectives
 Authentication
+
+A crucial component of ML Ops is managing authentication of who has access to services in the environment. To ensure authentication can configured, the user has to ensure the Azure CLI is operational in the host machine. The Azure CLI is a cross-platform command-line tool that can be installed locally on Linux computers. The CLI on Linux allows the execution of various commands through a terminal using interactive command-line prompts or a script. Once the Azure CLI is installed and enabled, the user is expected to check the service principal has been activated. For this task, I used the machine provided by the lab and therefore did not go through any authentication process. It is crucial however to understand the fundamentals of authentication in ML Pipelines.  
+
 Set up Auto ML experiment
+
+Once authentication is complete, the user can proceed to create the Auto ML run with the relevant dataset and 
+
 Deploy best model
 Enable logging
 swagger
