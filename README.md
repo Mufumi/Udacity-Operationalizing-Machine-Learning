@@ -15,10 +15,16 @@ A crucial component of ML Ops is managing authentication of who has access to se
 
 Set up Auto ML experiment
 
-Once authentication is complete, the user can proceed to create the Auto ML run with the relevant dataset and 
+Once authentication is complete, the user can proceed to create the Auto ML run with the relevant dataset and initiate an Auto ML experiment. For this excercise we used the Bankmarketing dataset. This dataset contains customer data that is going to be used to find the best strategies to improve for the next marketing campaign. The aim is to deploy a model that will predict the effectiveness of the current marketing campaign. This experiment was conducted on a Standard_DS12_V2 compute cluster.
 
 Deploy best model
+
+For the deployment of the best performing model, the Azure Container Instance was utilized with authentication enabled. This authentication is critical as a control measure in the ML Ops framework.
+
 Enable logging
+
+
+
 swagger
 consume endpoints
 Create, publish and consume pipeline
