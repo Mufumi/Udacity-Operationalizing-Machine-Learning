@@ -25,7 +25,7 @@ Once authentication is complete, the user can proceed to create the Auto ML run 
 For this excercise we used the Bankmarketing dataset.
 
 <p align="center">
-  <img width="1000" src="https://github.com/Mufumi/Udacity-Operationalizing-Machine-Learning/blob/main/Screenshots/Registered Dataset.png" alt="Registered_Dataset">
+  <img width="1000" src="https://github.com/Mufumi/Udacity-Operationalizing-Machine-Learning/blob/main/Screenshots/Registered%Dataset.png" alt="Registered_Dataset">
 </p>
 
 [Registered_Dataset.png]
