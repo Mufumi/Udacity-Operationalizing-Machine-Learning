@@ -22,21 +22,51 @@ Once authentication is complete, the user can proceed to create the Auto ML run 
 
 [Azure-ML-Experiment.png]
 
-For this excercise we used the Bankmarketing dataset. 
+For this excercise we used the Bankmarketing dataset.
+
+<p align="center">
+  <img width="1000" src="https://github.com/Mufumi/Udacity-Operationalizing-Machine-Learning/blob/main/Screenshots/Registered_Dataset.png" alt="Registered_Dataset">
+</p>
+
 [Registered_Dataset.png]
 
 This dataset contains customer data that is going to be used to find the best strategies to improve for the next marketing campaign. The aim is to deploy a model that will predict the effectiveness of the current marketing campaign. This experiment was conducted on a Standard_DS12_V2 compute cluster.
 
+<p align="center">
+  <img width="1000" src="https://github.com/Mufumi/Udacity-Operationalizing-Machine-Learning/blob/main/Screenshots/Azure_ML_run.png" alt="Azure_ML_run">
+</p>
+
 [Azure_ML_run.png]
+
+<p align="center">
+  <img width="1000" src="https://github.com/Mufumi/Udacity-Operationalizing-Machine-Learning/blob/main/Screenshots/Get_detail_widget.png" alt="Get_detail_widget">
+</p>
 
 [Get_detail_widget.png]
 
 The best run's model is the Voting Ensemble with an accuracy of 91.864%
 
+<p align="center">
+  <img width="1000" src="https://github.com/Mufumi/Udacity-Operationalizing-Machine-Learning/blob/main/Screenshots/Azure-ML-Experiment-Best-Run.png" alt="Azure-ML-Experiment-Best-Run">
+</p>
+
 [Azure-ML-Experiment-Best-Run.png]
 
+<p align="center">
+  <img width="1000" src="https://github.com/Mufumi/Udacity-Operationalizing-Machine-Learning/blob/main/Screenshots/Azure_ML_Pipeline_run.png" alt="Azure_ML_Pipeline_run">
+</p>
+
 [Azure_ML_Pipeline_run.png]
+
+<p align="center">
+  <img width="1000" src="https://github.com/Mufumi/Udacity-Operationalizing-Machine-Learning/blob/main/Screenshots/Azure_ML_Pipeline_run_2.png" alt="Azure_ML_Pipeline_run_2">
+</p>
+
 [Azure_ML_Pipeline_run_2.png]
+
+<p align="center">
+  <img width="1000" src="https://github.com/Mufumi/Udacity-Operationalizing-Machine-Learning/blob/main/Screenshots/Get_detail_widget.png" alt="Get_detail_widget">
+</p>
 
 [Get_detail_widget.png]
 
@@ -49,9 +79,19 @@ For the deployment of the best performing model, the Azure Container Instance wa
 With az and Python SDK for Azure installed, a new Python3 virtual environment can be set up. The virtual environment is set up to create an isolated environment for Python projects. 
 
 The logs.py file allows the user to view the logs of the application. 
+
+<p align="center">
+  <img width="1000" src="https://github.com/Mufumi/Udacity-Operationalizing-Machine-Learning/blob/main/Screenshots/Experiment-logs.png" alt="Experiment-logs">
+</p>
+
 [Experiment-logs.png]
 
 Application insights is also enabled to gather more information about the application's run.
+
+<p align="center">
+  <img width="1000" src="https://github.com/Mufumi/Udacity-Operationalizing-Machine-Learning/blob/main/Screenshots/Azure-ML-Application-Insights.png" alt="Azure-ML-Application-Insights">
+</p>
+
 [Azure-ML-Application-Insights.png]
 
 
@@ -60,11 +100,24 @@ Application insights is also enabled to gather more information about the applic
 
 The Azure application produces a swagger file that is used to interact with the HTTP endpoints produced in the model. 
 
+<p align="center">
+  <img width="1000" src="https://github.com/Mufumi/Udacity-Operationalizing-Machine-Learning/blob/main/Screenshots/Swagger-Domain-page.png" alt="Swagger-Domain-page">
+</p>
+
 [Swagger-Domain-page.png]
+
+<p align="center">
+  <img width="1000" src="https://github.com/Mufumi/Udacity-Operationalizing-Machine-Learning/blob/main/Screenshots/Swagger_GET_POST_methods.png" alt="Swagger_GET_POST_methods">
+</p>
+
 [Swagger_GET_POST_methods.png]
 
 
 The swagger.sh file pulls the latest swagger-ui docker image and then tries to run it on port 80. For my run, port 80 was already occupied considering the run was conducted on a Virtual machine. The server.py file script creates an HTTP server to expose the current working directory. It is meant to be an easy way to expose a local swagger.json file so that a swagger-ui service can pick it up from localhost.
+
+<p align="center">
+  <img width="1000" src="https://github.com/Mufumi/Udacity-Operationalizing-Machine-Learning/blob/main/Screenshots/Swagger-ML-model-payload.png" alt="Swagger-ML-model-payload">
+</p>
 
 [Swagger-ML-model-payload.png]
 
@@ -72,13 +125,26 @@ The swagger.sh file pulls the latest swagger-ui docker image and then tries to r
 
 Once the scoring uri and key are updated to match the running service, the endpoints can be consumed using the endpoints.py file. The output of the file displays the ability of the user to interact with the model endpoints.
 
+<p align="center">
+  <img width="1000" src="https://github.com/Mufumi/Udacity-Operationalizing-Machine-Learning/blob/main/Screenshots/Running-endpoint.png" alt="Running-endpoint">
+</p>
+
 [Running-endpoint.png]
 
 ### Benchmarking the model
 
 The model can be then benchmarked with Apache running against the HTTP API using authentication keys to retrieve performance results.
 
+<p align="center">
+  <img width="1000" src="https://github.com/Mufumi/Udacity-Operationalizing-Machine-Learning/blob/main/Screenshots/Benchmark.png" alt="Benchmark">
+</p>
+
 [Benchmark.png]
+
+<p align="center">
+  <img width="1000" src="https://github.com/Mufumi/Udacity-Operationalizing-Machine-Learning/blob/main/Screenshots/Benchmark_2.png" alt="Benchmark_2">
+</p>
+
 [Benchmark_2.png]
 
 ### Create, publish and consume pipeline
