@@ -34,17 +34,11 @@ Apache Benchmark (ab): Works with authentication keys to
 ## Future work
 
 ## Deploying model in Azure studio
-
-Using Azure Studio
   
 [![Deploying a model using Azure Studio](auto_ML_model_deploy_using_azure_studio_4_20.png)](https://youtu.be/0wKgqIJLtgQ)
-  
-With Python SDK
+
+## Creating, publishing and consuming an ML Pipeline using Python SDK
 
 [![Deploying a model using Azure Python_SDK](auto_ML_model_deploy_using_azure_studio_4_20.png)](https://youtu.be/EDPTXV3oGIA)
-
-## Creating, publishing and consuming an ML Pipeline
-
-
 
 
