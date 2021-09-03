@@ -10,8 +10,10 @@ In this project we initialize, configure and deploy a Machine Learning model in 
 
 ## Application architectural diagram
 
+The application architecture can be illustrated as follows:
+
 <p align="center">
-  <img width="200" src="https://github.com/Mufumi/Udacity-Optimizing-a-ML-Pipeline-in-Azure-Tutorial/blob/main/Azure%20Ml.jpg" alt="Application architecture">
+  <img width="200" src="https://github.com/Mufumi/Udacity-Optimizing-a-ML-Pipeline-in-Azure-Tutorial/blob/main/Application_Architecture.png" alt="Application architecture">
 </p>
 
 ### Authentication
