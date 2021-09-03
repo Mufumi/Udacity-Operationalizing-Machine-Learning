@@ -60,7 +60,7 @@ The best run's model is the Voting Ensemble with an accuracy of 91.864%
 
 
 <p align="center">
-  <img width="1000" src="https://github.com/Mufumi/Udacity-Operationalizing-Machine-Learning/blob/main/Screenshots/Get_detail_widget.png" alt="Get_detail_widget">
+  <img width="1000" src="https://github.com/Mufumi/Udacity-Operationalizing-Machine-Learning/blob/main/Screenshots/Azure-ML-Active-REST-endpoint.png" alt="Azure-ML-Active-REST-endpoint">
 </p>
 
 
