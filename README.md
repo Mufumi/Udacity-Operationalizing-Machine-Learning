@@ -107,7 +107,7 @@ The Azure application produces a swagger file that is used to interact with the 
 [Swagger-Domain-page.png]
 
 <p align="center">
-  <img width="1000" src="https://github.com/Mufumi/Udacity-Operationalizing-Machine-Learning/blob/main/Screenshots/Swagger_GET_POST_methods.png" alt="Swagger_GET_POST_methods">
+  <img width="1000" src="https://github.com/Mufumi/Udacity-Operationalizing-Machine-Learning/blob/main/Screenshots/Swagger-GET-POST-methods.png" alt="Swagger_GET_POST_methods">
 </p>
 
 [Swagger_GET_POST_methods.png]
