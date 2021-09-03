@@ -16,6 +16,10 @@ A crucial component of ML Ops is managing authentication of who has access to se
 
 Once authentication is complete, the user can proceed to create the Auto ML run with the relevant dataset and initiate an Auto ML experiment.
 
+<p align="center">
+  <img width="200" src="https://github.com/Mufumi/Udacity-Operationalizing-Machine-Learning/blob/main/Screenshots/Azure-ML-Experiment.png" alt="Azure-ML-Experiment">
+</p>
+
 [Azure-ML-Experiment.png]
 
 For this excercise we used the Bankmarketing dataset. 
