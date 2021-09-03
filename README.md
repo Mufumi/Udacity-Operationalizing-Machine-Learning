@@ -33,7 +33,7 @@ For this excercise we used the Bankmarketing dataset.
 This dataset contains customer data that is going to be used to find the best strategies to improve for the next marketing campaign. The aim is to deploy a model that will predict the effectiveness of the current marketing campaign. This experiment was conducted on a Standard_DS12_V2 compute cluster.
 
 <p align="center">
-  <img width="1000" src="https://github.com/Mufumi/Udacity-Operationalizing-Machine-Learning/blob/main/Screenshots/Azure_ML_run.png" alt="Azure_ML_run">
+  <img width="1000" src="https://github.com/Mufumi/Udacity-Operationalizing-Machine-Learning/blob/main/Screenshots/Azure_ML_Run.png" alt="Azure_ML_run">
 </p>
 
 [Azure_ML_run.png]
