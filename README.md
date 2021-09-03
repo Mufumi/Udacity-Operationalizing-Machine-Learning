@@ -32,6 +32,10 @@ The Azure application produces a swagger file that is used to interact with the 
 
 Once the scoring uri and key are updated to match the running service, the endpoints can be consumed using the endpoints.py file. The output of the file displays the ability of the user to interact with the model endpoints. 
 
+### Benchmarking the model
+
+The model can be then benchmarked with Apache running against the HTTP API using authentication keys to retrieve performance results.
+
 ### Create, publish and consume pipeline
 Apache Benchmark (ab): Works with authentication keys to 
 
