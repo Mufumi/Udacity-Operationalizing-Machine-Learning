@@ -41,7 +41,7 @@ Using Azure Studio
 
 [![Deploying a model using Azure Studio](auto_ML_model_deploy_using_azure_studio_4_20.png)](https://youtu.be/0wKgqIJLtgQ)
  
-https://youtube.com/embed/0wKgqIJLtgQ
+video: https://youtube.com/embed/0wKgqIJLtgQ
 
 ## Publish an ML Pipeline
 
