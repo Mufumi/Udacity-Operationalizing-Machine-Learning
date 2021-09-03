@@ -40,7 +40,7 @@ Apache Benchmark (ab): Works with authentication keys to
 Using Azure Studio
 
 <p align="center">
-  <[![Deploying a model using Azure Studio](auto_ML_model_deploy_using_azure_studio_4_20.png)](https://youtu.be/0wKgqIJLtgQ)>
+  [![Deploying a model using Azure Studio](auto_ML_model_deploy_using_azure_studio_4_20.png)](https://youtu.be/0wKgqIJLtgQ)
 </p>
   
 video: https://youtube.com/embed/0wKgqIJLtgQ
