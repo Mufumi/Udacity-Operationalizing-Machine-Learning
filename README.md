@@ -39,6 +39,6 @@ Apache Benchmark (ab): Works with authentication keys to
 
 ## Creating, publishing and consuming an ML Pipeline using Python SDK
 
-[![Deploying a model using Azure Python_SDK](auto_ML_model_deploy_using_azure_studio_4_20.png)](https://youtu.be/EDPTXV3oGIA)
+[![Deploying a model using Azure Python_SDK](deploy_model_using_python_sdk.png)](https://youtu.be/EDPTXV3oGIA)
 
 
