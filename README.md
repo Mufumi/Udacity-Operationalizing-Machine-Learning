@@ -37,19 +37,15 @@ Once the scoring uri and key are updated to match the running service, the endpo
 The model can be then benchmarked with Apache running against the HTTP API using authentication keys to retrieve performance results.
 
 ### Create, publish and consume pipeline
-Apache Benchmark (ab): Works with authentication keys to 
 
+#### Deploying model in Azure studio
+  
+[![Deploying a model using Azure Studio](auto_ML_model_deploy_using_azure_studio_4_20.png)](https://youtu.be/0wKgqIJLtgQ)
+
+#### Creating, publishing and consuming an ML Pipeline using Python SDK
+
+[![Deploying a model using Azure Python_SDK](deploy_model_using_python_sdk.png)](https://youtu.be/EDPTXV3oGIA)
 
 ## Application architectural diagram
 
 ## Future work
-
-## Deploying model in Azure studio
-  
-[![Deploying a model using Azure Studio](auto_ML_model_deploy_using_azure_studio_4_20.png)](https://youtu.be/0wKgqIJLtgQ)
-
-## Creating, publishing and consuming an ML Pipeline using Python SDK
-
-[![Deploying a model using Azure Python_SDK](deploy_model_using_python_sdk.png)](https://youtu.be/EDPTXV3oGIA)
-
-
