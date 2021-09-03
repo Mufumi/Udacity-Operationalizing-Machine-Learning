@@ -148,3 +148,5 @@ The model can be then benchmarked with Apache running against the HTTP API using
 [![Deploying a model using Azure Python_SDK](deploy_model_using_python_sdk.png)](https://youtu.be/EDPTXV3oGIA)
 
 ## Future work
+
+Authentication in this project was automatic. An environment where users can test out authentication in the project (optional) could be more helpful.
