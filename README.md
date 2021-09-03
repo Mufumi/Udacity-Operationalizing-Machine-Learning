@@ -22,8 +22,15 @@ For the deployment of the best performing model, the Azure Container Instance wa
 
 ### Enable logging
 
-### swagger
-### consume endpoints
+With az and Python SDK for Azure installed, a new Python3 virtual environment can be set up. The virtual environment is set up to create an isolated environment for Python projects. Application insights is also enabled to gather more information about the application's run.
+
+### Swagger
+
+The Azure application produces a swagger file that is used to interact with the HTTP endpoints produced in the model. The swagger.sh file pulls the latest swagger-ui docker image and then tries to run it on port 80. For my run, port 80 was already occupied considering the run was conducted on a Virtual machine. The server.py file script creates an HTTP server to expose the current working directory. It is meant to be an easy way to expose a local swagger.json file so that a swagger-ui service can pick it up from localhost.
+
+### Consume endpoints
+
+Once the scoring uri and key are updated to match the running service, the endpoints can be consumed using the endpoints.py file. The output of the file displays the ability of the user to interact with the model endpoints. 
 
 ### Create, publish and consume pipeline
 Apache Benchmark (ab): Works with authentication keys to 
