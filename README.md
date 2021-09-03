@@ -53,7 +53,7 @@ The best run's model is the Voting Ensemble with an accuracy of 91.864%
 [Azure-ML-Experiment-Best-Run.png]
 
 <p align="center">
-  <img width="1000" src="https://github.com/Mufumi/Udacity-Operationalizing-Machine-Learning/blob/main/Screenshots/Azure_ML_Pipeline_run.png" alt="Azure_ML_Pipeline_run">
+  <img width="1000" src="https://github.com/Mufumi/Udacity-Operationalizing-Machine-Learning/blob/main/Screenshots/Azure_ML_Pipeline_Run.png" alt="Azure_ML_Pipeline_run">
 </p>
 
 [Azure_ML_Pipeline_run.png]
