@@ -119,6 +119,8 @@ The swagger.sh file pulls the latest swagger-ui docker image and then tries to r
 
 ### Swagger model payload
 
+The swagger payload gives an example of the type of data that the model expects to interface with.
+
 <p align="center">
   <img width="1000" src="https://github.com/Mufumi/Udacity-Operationalizing-Machine-Learning/blob/main/Screenshots/Swagger-ML-model-payload.png" alt="Swagger-ML-model-payload">
 </p>
