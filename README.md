@@ -5,7 +5,7 @@
 # Operationalizing Machine Learning in Azure
 
 ## Overview
-This project is part of the Udacity Azure ML Nanodegree.In this project we initialize, configure and deploy a Machine Learning model in MS Azure. For this probelm, we use the Bank Marketing dataset which contains customer data that is going to be used to find the best strategies to improve for the next marketing campaign. The aim is to predict the effectiveness of the current marketing campaign. The model is trained using AutoML and deployed with REST endpoints provided for application consumption. An ML Pipeline is created to automate ML workflows in the project.
+This project is part of the Udacity Azure ML Nanodegree.In this project we initialize, configure and deploy a Machine Learning model in MS Azure. For this probelm, we use the Bank Marketing dataset which contains customer data that is going to be used to find the best strategies to improve for the next marketing campaign. The aim is to predict the effectiveness of the current marketing campaign. The model is trained using AutoML and deployed with REST endpoints provided for application consumption. An ML Pipeline is created to automate ML workflows in the project. This [notebook](https://github.com/Mufumi/Udacity-Operationalizing-Machine-Learning/blob/main/Auto-ML-Deploy-exercise/aml-pipelines-with-automated-machine-learning-step_updated.ipynb) contains the documentation of the experiment.
 
 ## Application architectural diagram
 
